@@ -25,7 +25,7 @@ We’ll go through all the necessary steps to pull actionable log data together,
 Ultimately, we want to use this data, not solely just for observability purposes, but to specifically report on how our business is doing. Excercises in this lab will demonstrate how we can turn actionable data in to answers for critical performance questions like, "*Can we predict the future earnings of the platform?*", "*How much money is the platform earning?*", and, ultimately, "*is my business profitable?*"  
 
 ### Step 1: Selecting and filtering required log data
-1. As we did in our first lab, we will be using the Logs app for this exercise. Open the **logs app**
+1. As we did in our first lab, we will be using the Logs app for the intial investigation of the data. Open the **logs app**
 2. Add a filter to view the data particular to EasyTrade. To achieve this simply add a filter for the **k8.namespace.name** with the value of “**easytrade**”. This will filter the data just for the *EasyTrade* application.
 
 ```DQL
